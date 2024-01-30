@@ -35,7 +35,7 @@ handleToggle=()=>{
   render() {
     return (
       <div>
-        <h1>Simple Component</h1>
+        <h1>Pure Component Component</h1>
         {console.log("Pure Component Couter")}
         <div>{this.state.count}</div>
         <button onClick={this.handleIncrement}>Increment</button>
